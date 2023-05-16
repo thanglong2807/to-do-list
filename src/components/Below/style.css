@@ -1,0 +1,17 @@
+.below {
+  padding: 7.5rem 0;
+  background-color: rgb(29, 128, 159);
+}
+.below_title {
+  margin-bottom: 1.5rem;
+  font-size: calc(1.325rem + 0.9vw);
+}
+.below_list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.below_btn {
+  color: #000;
+}

@@ -1,0 +1,14 @@
+.active_menu {
+  position: fixed;
+  right: 15px;
+  top: 23px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 32px;
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(52, 58, 64, 0.5);
+  cursor: pointer;
+}

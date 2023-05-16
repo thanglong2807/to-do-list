@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+// Nhúng thư viện của bạn vào dự án
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

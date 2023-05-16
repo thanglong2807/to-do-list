@@ -1,0 +1,13 @@
+.services_logo-icon {
+  color: rgb(29, 128, 159);
+}
+.services_list {
+  display: flex;
+}
+.services_list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+}

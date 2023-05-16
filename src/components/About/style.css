@@ -1,0 +1,16 @@
+.about {
+  padding: 7.5rem 0;
+}
+.about_title {
+  font-size: calc(1.325rem + 0.9vw);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.about_description {
+  margin-bottom: 3rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+}

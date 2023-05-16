@@ -1,0 +1,27 @@
+.website {
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    url("../../../public/assets/images/portfolio-4.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+.container {
+  height: 100%;
+}
+.website_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.website_title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  display: block;
+  max-width: 30rem;
+  margin-bottom: 3rem;
+}
