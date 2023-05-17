@@ -3,7 +3,7 @@ import './style.css';
 import Button from "../Button";
 
 const Home = () => {
-    return (<div className="home">
+    return (<div id="home" className="home">
         <div className="container">
             <div className="home_content">
                 <h1 className="home_title">Stylish Portfolio</h1>

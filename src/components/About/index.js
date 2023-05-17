@@ -3,7 +3,7 @@ import './style.css';
 
 import Button from "../Button";
 const About = () => {
-    return (<div className="about">
+    return (<div id="about" className="about">
         <div className="container">
             <div className="">
                 <h2 className="about_title">Stylish Portfolio is the perfect theme for your next project!</h2>

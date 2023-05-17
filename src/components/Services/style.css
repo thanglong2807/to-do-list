@@ -31,6 +31,7 @@
 }
 .services_list {
   display: flex;
+  justify-content: center;
 }
 .services_list-item {
   display: flex;

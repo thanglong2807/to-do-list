@@ -1,7 +1,7 @@
 import React from "react"
 import './style.css';
 const Portfolio = () => {
-    return (<div className="portfolio">
+    return (<div id="portfolio" className="portfolio">
         <div className="container">
             <div className="portfolio-content">
                 <span className="portfolio_a">portfolio</span>

@@ -1,8 +1,8 @@
 .active_menu {
   position: fixed;
   right: 15px;
-  top: 23px;
-  padding: 10px;
+  top: 6px;
+  padding: 28px;
   border-radius: 10px;
   width: 32px;
   display: flex;
@@ -11,4 +11,5 @@
   align-items: center;
   background: rgba(52, 58, 64, 0.5);
   cursor: pointer;
+  z-index: 9;
 }

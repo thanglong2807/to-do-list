@@ -36,10 +36,10 @@
 .portfolio_list-item:hover {
   /* color: #17667f; */
   clip-path: inset(0px);
-  transition: clip-path 0.25s ease-out, background-color 0.7s,
-    -webkit-clip-path 0.25s ease-out;
-  background-color: rgba(29, 128, 159, 0.9);
-  clip-path: inset(2rem);
+  -webkit-animation: scale-down-center 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: scale-down-center 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  /* clip-path: inset(2rem); */
 }
 
 .portfolio_list-title,
@@ -65,4 +65,24 @@
 }
 .portfolio_list-title {
   margin-bottom: 8px;
+}
+@-webkit-keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
 }

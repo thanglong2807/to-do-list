@@ -4,7 +4,7 @@ import { faCoffee, faMobilePhone } from '@fortawesome/free-solid-svg-icons'
 import './style.css';
 import ServicesList from "../ServicesList";
 const Services = () => {
-    return (<div className="services">
+    return (<div id="services" className="services">
         <div className="container">
             <div className="services-content">
                 <span className="services_a">SERVICES</span>
